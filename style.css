@@ -139,7 +139,8 @@ transform: scale(2);
 }
 
 .ex-7-img:hover {
-
+filter: grayscale(0.5);
+filter: sepia(0.5);
     
 }
 
