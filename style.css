@@ -184,4 +184,36 @@ filter: sepia(0.5);
 
 }
 
+/* Esercizio 11 */
+
+.ex-11-icon:hover {
+    animation: spinandreturn 1s linear;
+}
+
+
+
+@keyframes spinandreturn {
+
+    0% {
+
+    transform: rotate(0);
+    }
+
+
+90% {
+
+    transform: rotate(315deg);
+}
+
+100% {
+
+    transform: rotate(0);
+
+}
+}
+
+
+
+
+
 
