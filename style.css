@@ -67,3 +67,14 @@
     width: 60px;
     height: 20px;
 }
+
+
+/* Esercizio */
+
+.ex-1-square:hover {
+    background: red;
+  }
+  
+  .ex-1-square {
+      transition: 2s;
+  }
