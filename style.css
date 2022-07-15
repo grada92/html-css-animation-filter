@@ -85,7 +85,7 @@
     transition: 5s ; 
   }
 
-  .ex-2-square:hover {
+  .ex-2-square:active {
     width: calc(100% - 200px);
   }
 
@@ -107,4 +107,20 @@ border-radius: 100%;
 
 .ex-4-square:hover {
     opacity: 0 ;
+}
+
+/* Esercizio 5 */
+
+.ex-5-square {
+    transition: 3s;
+}
+
+.ex-5-square:hover {
+transform: scale(2);
+  
+}
+
+.ex-5-square:active {
+  transform: scale(0.2);
+
 }
